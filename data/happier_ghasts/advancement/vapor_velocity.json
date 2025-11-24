@@ -1,0 +1,52 @@
+{
+    "parent": "minecraft:husbandry/place_dried_ghast_in_water",
+    "display": {
+        "icon": {
+            "id": "minecraft:light_gray_harness",
+            "components": {
+                "minecraft:enchantments": {
+                    "happier_ghasts:aerodynamic": 3
+                }
+            }
+        },
+        "title": "Vapor Velocity",
+        "description": "Make a Happy Ghast fly at maximum velocity",
+        "frame": "goal"
+    },
+    "criteria": {
+        "ride_a_happy_ghast_with_aerodynamic_3": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "vehicle": {
+                                "type": "minecraft:happy_ghast",
+                                "equipment": {
+                                    "body": {
+                                        "items": "#minecraft:harnesses",
+                                        "predicates": {
+                                            "minecraft:enchantments": [
+                                                {
+                                                    "enchantments": "happier_ghasts:aerodynamic",
+                                                    "levels": 3
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "ride_a_happy_ghast_with_aerodynamic_3"
+        ]
+    ]
+}

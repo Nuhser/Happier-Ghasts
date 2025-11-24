@@ -1,0 +1,17 @@
+{
+    "spellright.language": [
+        "de",
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "scad"
+    ],
+    "spellright.parserByClass": {
+        "scad": {
+            "parser": "code"
+        }
+    }
+}
