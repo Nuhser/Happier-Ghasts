@@ -1,7 +1,7 @@
 {
     "description": {
         "type": "text",
-        "text": "Flight Speed"
+        "text": "Aerodynamic"
     },
     "supported_items": "#minecraft:harnesses",
     "weight": 10,
