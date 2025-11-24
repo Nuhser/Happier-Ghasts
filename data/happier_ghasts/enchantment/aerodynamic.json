@@ -7,12 +7,12 @@
     "weight": 10,
     "max_level": 3,
     "min_cost": {
-        "base": 15,
-        "per_level_above_first": 9
+        "base": 1,
+        "per_level_above_first": 11
     },
     "max_cost": {
-        "base": 65,
-        "per_level_above_first": 9
+        "base": 21,
+        "per_level_above_first": 11
     },
     "anvil_cost": 4,
     "slots": [
