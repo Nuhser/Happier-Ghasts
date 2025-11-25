@@ -1,0 +1,36 @@
+{
+    "description": {
+        "type": "translatable",
+        "translate": "enchantment.happierGhasts.greedy",
+        "fallback": "Greedy"
+    },
+    "supported_items": "#minecraft:harnesses",
+    "weight": 10,
+    "max_level": 2,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 11
+    },
+    "max_cost": {
+        "base": 21,
+        "per_level_above_first": 11
+    },
+    "anvil_cost": 4,
+    "slots": [
+        "body"
+    ],
+    "effects": {
+        "minecraft:attributes": [
+            {
+                "id": "happier_ghasts:enchantment.greedy",
+                "attribute": "minecraft:tempt_range",
+                "operation": "add_value",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 5,
+                    "per_level_above_first": 5
+                }
+            }
+        ]
+    }
+}
