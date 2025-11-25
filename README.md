@@ -6,7 +6,7 @@ There's a resource pack available as well which provides English and German tran
 > [!WARNING]
 > You need to close and reopen your world in singleplayer or restart your server for multiplayer after installing or updating this data pack. Otherwise, the enchantments won't work.
 
-> Feel free to create a pull request on GitHub if you want to provide translations for more languages.
+> Feel free to create a pull request on GitHub if you want to provide translations for more languages.<br/>
 > *The pack image was generated using AI.*
 
 ## Enchantements
