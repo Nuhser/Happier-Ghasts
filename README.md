@@ -2,6 +2,9 @@
 
 This datapack improves Happy Ghasts to be more useful and more fun.
 
+> [!WARNING]
+> You need to close and reopen your world in singleplayer or restart your server for multiplayer after installing or updating this datapack. Otherwise, the enchantments won't work.
+
 ## Enchantements
 
 ### Aerodynamic
