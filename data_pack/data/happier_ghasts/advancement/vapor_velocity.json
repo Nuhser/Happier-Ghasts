@@ -9,8 +9,16 @@
                 }
             }
         },
-        "title": "Vapor Velocity",
-        "description": "Make a Happy Ghast fly at maximum velocity",
+        "title": {
+            "type": "translatable",
+            "translate": "advancement.happierGhasts.vaporVelocity.title",
+            "fallback": "Vapor Velocity"
+        },
+        "description": {
+            "type": "translatable",
+            "translate": "advancement.happierGhasts.vaporVelocity.description",
+            "fallback": "Make a Happy Ghast fly at maximum velocity"
+        },
         "frame": "goal"
     },
     "criteria": {

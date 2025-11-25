@@ -1,7 +1,8 @@
 {
     "description": {
-        "type": "text",
-        "text": "Aerodynamic"
+        "type": "translatable",
+        "translate": "enchantment.happierGhasts.aerodynamic",
+        "fallback": "Aerodynamic"
     },
     "supported_items": "#minecraft:harnesses",
     "weight": 10,
