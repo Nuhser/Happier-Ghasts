@@ -1,7 +1,7 @@
 {
     "pack": {
-        "max_format": 88,
         "min_format": 82,
+        "max_format": 94,
         "description": "Improvements for Happy Ghasts"
     }
 }
