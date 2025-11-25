@@ -1,4 +1,4 @@
-# Happier Ghasts
+# Happier Ghasts - Data Pack for Minecraft
 
 This data pack improves Happy Ghasts to be more useful and more fun.<br/>
 There's a resource pack available as well which provides English and German translations for the content from the data pack. If the resource pack isn't used, the texts will default to English.
