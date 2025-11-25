@@ -7,7 +7,6 @@ There are enchantments for increasing the Ghast's flight speed as well as its te
 
 <img width="45%" alt="Enchanted Harness" src="https://github.com/user-attachments/assets/561088ef-8f0e-48b3-91e4-8a59518a28c1" />
 
-
 You can find the latest release of both, the data and resource pack, [here](https://github.com/Nuhser/Happier-Ghasts/releases/latest) or on [Modrinth](https://modrinth.com/datapack/nuhser-happier-ghasts/versions).
 
 > [!WARNING]
