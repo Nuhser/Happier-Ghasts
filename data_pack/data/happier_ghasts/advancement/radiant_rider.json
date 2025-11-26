@@ -1,0 +1,51 @@
+{
+    "parent": "happier_ghasts:vapor_velocity",
+    "display": {
+        "icon": {
+            "id": "minecraft:light_blue_harness",
+            "components": {
+                "minecraft:enchantments": {
+                    "happier_ghasts:aerodynamic": 3
+                }
+            }
+        },
+        "title": {
+            "type": "translatable",
+            "translate": "advancement.happierGhasts.radiantRider.title",
+            "fallback": "Radiant Rider"
+        },
+        "description": {
+            "type": "translatable",
+            "translate": "advancement.happierGhasts.radiantRider.description",
+            "fallback": "Ride a Happy Ghast equipped with a fully enchanted harness"
+        },
+        "frame": "challenge",
+        "hidden": true
+    },
+    "criteria": {
+        "ride_fully_enchanted_happy_ghast": {
+            "trigger": "minecraft:started_riding",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:all_of",
+                        "terms": [
+                            {
+                                "condition": "minecraft:reference",
+                                "name": "happier_ghasts:enchantment/riding_with_aerodynamic_3"
+                            },
+                            {
+                                "condition": "minecraft:reference",
+                                "name": "happier_ghasts:enchantment/riding_with_greedy_2"
+                            },
+                            {
+                                "condition": "minecraft:reference",
+                                "name": "happier_ghasts:enchantment/riding_with_any_protection_4"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

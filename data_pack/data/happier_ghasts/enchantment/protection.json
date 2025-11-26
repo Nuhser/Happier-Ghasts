@@ -5,7 +5,7 @@
         "fallback": "Harness Protection"
     },
     "supported_items": "#minecraft:harnesses",
-    "exclusive_set": "#happier_ghasts:exclusive_protections",
+    "exclusive_set": "#happier_ghasts:harness_protections",
     "weight": 10,
     "max_level": 4,
     "min_cost": {

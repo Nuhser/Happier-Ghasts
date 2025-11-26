@@ -1,6 +1,6 @@
 # Happier Ghasts - Data Pack for Minecraft
 
-This data pack improves Happy Ghasts by adding enchantments for their harnesses.<br/>
+This data pack improves Happy Ghasts by adding enchantments for their harnesses.\
 There's a resource pack available as well which provides English and German translations for the content from the data pack. If the resource pack isn't used, the texts will default to English.
 
 There are enchantments for protection, increasing the Ghast's flight speed or its tempting range. This should make it easier to get the Ghast back down to you.

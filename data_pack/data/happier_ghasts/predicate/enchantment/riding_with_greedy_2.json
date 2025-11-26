@@ -1,0 +1,22 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+        "vehicle": {
+            "type": "minecraft:happy_ghast",
+            "equipment": {
+                "body": {
+                    "items": "#minecraft:harnesses",
+                    "predicates": {
+                        "minecraft:enchantments": [
+                            {
+                                "enchantments": "happier_ghasts:greedy",
+                                "levels": 2
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
