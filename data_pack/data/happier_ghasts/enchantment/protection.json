@@ -1,0 +1,46 @@
+{
+    "description": {
+        "type": "translatable",
+        "translate": "enchantment.happierGhasts.protection",
+        "fallback": "Harness Protection"
+    },
+    "supported_items": "#minecraft:harnesses",
+    "exclusive_set": "#happier_ghasts:exclusive_protections",
+    "weight": 10,
+    "max_level": 4,
+    "min_cost": {
+        "base": 1,
+        "per_level_above_first": 11
+    },
+    "max_cost": {
+        "base": 12,
+        "per_level_above_first": 11
+    },
+    "anvil_cost": 1,
+    "slots": ["body"],
+    "effects": {
+        "minecraft:damage_protection": [
+            {
+                "effect": {
+                    "type": "minecraft:add",
+                    "value": {
+                        "type": "minecraft:linear",
+                        "base": 1.0,
+                        "per_level_above_first": 1.0
+                    }
+                },
+                "requirements": {
+                    "condition": "minecraft:damage_source_properties",
+                    "predicate": {
+                        "tags": [
+                            {
+                                "expected": false,
+                                "id": "minecraft:bypasses_invulnerability"
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

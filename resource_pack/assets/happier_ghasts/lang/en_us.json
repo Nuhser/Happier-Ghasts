@@ -3,6 +3,10 @@
     "advancement.happierGhasts.vaporVelocity.title": "Vapor Velocity",
     "dataPack.happierGhasts.description": "New enchantments and improvements for Happy Ghasts",
     "enchantment.happierGhasts.aerodynamic": "Aerodynamic",
+    "enchantment.happierGhasts.blastProtection": "Harness Blast Protection",
+    "enchantment.happierGhasts.fireProtection": "Harness Fire Protection",
     "enchantment.happierGhasts.greedy": "Greedy",
+    "enchantment.happierGhasts.projectileProtection": "Harness Projectile Protection",
+    "enchantment.happierGhasts.protection": "Harness Protection",
     "resourcePack.happierGhasts.description": "Translations for the \"Happier Ghasts\" data pack by Nuhser"
 }

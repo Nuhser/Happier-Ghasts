@@ -5,7 +5,7 @@
         "fallback": "Aerodynamic"
     },
     "supported_items": "#minecraft:harnesses",
-    "weight": 10,
+    "weight": 5,
     "max_level": 3,
     "min_cost": {
         "base": 1,

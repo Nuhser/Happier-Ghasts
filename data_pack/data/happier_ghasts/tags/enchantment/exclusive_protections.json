@@ -1,9 +1,7 @@
 {
     "values": [
-        "happier_ghasts:aerodynamic",
         "happier_ghasts:blast_protection",
         "happier_ghasts:fire_protection",
-        "happier_ghasts:greedy",
         "happier_ghasts:projectile_protection",
         "happier_ghasts:protection"
     ]
