@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:location_check",
+    "predicate": {
+        "block": {
+            "blocks": "minecraft:dropper",
+            "state": {
+                "facing": "up"
+            },
+            "components": {
+                "minecraft:custom_data": {
+                    "custom_crafter": true
+                }
+            }
+        }
+    }
+}

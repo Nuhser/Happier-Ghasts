@@ -1,0 +1,6 @@
+{
+    "values": [
+        "custom_crafter:init_crafter",
+        "custom_crafter:destroy_crafter"
+    ]
+}
