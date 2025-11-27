@@ -3,6 +3,8 @@
 This data pack improves Happy Ghasts by adding multiple enchantments for their harnesses.\
 There is an enchantments for increasing the Ghast's flight speed. Another enchantment grants a higher tempting range which should make it easier to get the Ghast back down to you. Other enchantments grant your Happy Ghast higher protection against different damage types.
 
+Some advancements related to the new content where added as well.
+
 For more information take a look at the data pack's [Wiki](https://github.com/Nuhser/Happier-Ghasts/wiki).
 
 There's a resource pack available as well which provides English and German translations for the content from the data pack. If the resource pack isn't used, the texts will default to English.
