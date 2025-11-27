@@ -22,7 +22,17 @@
     "effects": {
         "minecraft:attributes": [
             {
-                "id": "happier_ghasts:enchantment.aerodynamic",
+                "id": "happier_ghasts:enchantment.aerodynamic.movement_speed",
+                "attribute": "minecraft:movement_speed",
+                "operation": "add_value",
+                "amount": {
+                    "type": "minecraft:linear",
+                    "base": 0.0125,
+                    "per_level_above_first": 0.0125
+                }
+            },
+            {
+                "id": "happier_ghasts:enchantment.aerodynamic.flying_speed",
                 "attribute": "minecraft:flying_speed",
                 "operation": "add_value",
                 "amount": {
