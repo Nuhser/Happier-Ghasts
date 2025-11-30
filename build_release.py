@@ -1,4 +1,5 @@
 import argparse
+import os
 import shutil
 
 parser = argparse.ArgumentParser(
@@ -10,5 +11,10 @@ parser.add_argument("-r", "--release", dest="release", help="Release number used
 
 args = parser.parse_args()
 
-shutil.make_archive(f"Happier_Ghasts_Data_Pack_v{args.release}", "zip", "data_pack")
-shutil.make_archive(f"Happier_Ghasts_Resource_Pack_v{args.release}", "zip", "resource_pack")
+if (os.path.isdir("release")):
+    shutil.rmtree("release")
+
+os.mkdir("release")
+
+shutil.make_archive(f"release/Happier_Ghasts_Data_Pack_v{args.release}", "zip", "data_pack")
+shutil.make_archive(f"release/Happier_Ghasts_Resource_Pack_v{args.release}", "zip", "resource_pack")

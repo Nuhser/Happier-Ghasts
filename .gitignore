@@ -1,4 +1,4 @@
 .vscode/
+release/
 
 *.code-workspace
-*.zip
